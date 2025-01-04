@@ -1,1 +1,1 @@
-
+streamlit run dashboard.py
