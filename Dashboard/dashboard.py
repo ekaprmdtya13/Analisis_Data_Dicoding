@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 @st.cache
 def load_data():
     try:
-        return pd.read_csv("dashboard_data.csv")
+        return pd.read_csv("Dashboard/dashboard_data.csv")
     except FileNotFoundError:
         st.error("File 'dashboard_data.csv' tidak ditemukan. Pastikan file tersedia di direktori yang sama dengan aplikasi ini.")
         return None
